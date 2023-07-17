@@ -3,8 +3,6 @@ import motk
 motk = motk.MotK("DEM.json", "french_stopwords")
 
 
-
-
 print(motk.find_key_words("""La reconnaissance d'image est un domaine en constante évolution de l'intelligence artificielle qui suscite un intérêt croissant. Elle permet aux ordinateurs de comprendre, d'analyser et d'interpréter des images visuelles, simulant ainsi la capacité de vision humaine. Dans cette rédaction, nous explorerons les principes fondamentaux de la reconnaissance d'image et nous examinerons l'évolution de l'approche, en passant de l'algorithmie classique au Machine Learning.
 La reconnaissance d'image repose sur la représentation et le traitement des images par les ordinateurs. Nous aborderons la conversion des images en niveaux de gris ou en couleurs, la résolution des images, ainsi que la représentation des pixels. De plus, nous explorerons les opérations de base telles que la convolution, la binarisation et les opérations logiques, qui sont couramment utilisées dans les algorithmes classiques de traitement d'image.
 L'algorithme de pourcentage de pixel est l'un des exemples d'algorithmes classiques utilisés pour évaluer la composition d'une image en termes de pixels blancs. Nous examinerons son fonctionnement, ses applications courantes, ainsi que ses points forts et ses limites. Cependant, nous reconnaîtrons également que les algorithmes classiques ont leurs limitations en termes de précision et de capacité à traiter des images complexes.

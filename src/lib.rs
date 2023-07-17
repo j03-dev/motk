@@ -125,8 +125,6 @@ fn most_occurate(
     let mut sorted_poids: Vec<(&String, &i32)> = poids.iter().collect();
     sorted_poids.sort_by(|a, b| b.1.cmp(a.1));
 
-    println!("{sorted_poids:?}");
-
     sorted_poids
         .iter()
         .map(|(key, _value)| String::from(*key))
